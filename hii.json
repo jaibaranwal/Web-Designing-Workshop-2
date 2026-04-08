@@ -1,0 +1,8 @@
+let student={
+    "name":"depth",
+    "age":25
+};
+let jsonData=JSON.stringify(student);
+console.log(student);
+Output:
+{"name":"deepti";"age":25}
