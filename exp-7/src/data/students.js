@@ -9,7 +9,7 @@ const students = [
     id: 2,
     name: "Anita Verma",
     course: "Information Technology",
-    marks: 82,
+    marks: 87,
   },
   {
     id: 3,
