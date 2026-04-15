@@ -1,11 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Employe Salary Management System</title>
+  <title>Array and Object Operations using JavaScript</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+  <h1>Employee Records</h1>
+  <button onclick="displayEmployees()">Display All Employees</button>
+  <button onclick="filterEmployees()">Filter Salary > 50,000</button>
+  <button onclick="showStatistics()">Show Salary Statistics</button>
+  <button onclick="countDepartment('IT')">Count IT Employees</button>
+  <div id="output"></div>
+  <script src="script.js"></script>
 </body>
 </html>
