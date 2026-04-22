@@ -7,7 +7,7 @@ function calculateMarks() {
     }
 
     let total = 0;
-
+    
     // Loop to ask marks for each subject
     for (let i = 1; i <= numSubjects; i++) {
         let marks = parseFloat(prompt("Enter marks for Subject " + i)) || 0;

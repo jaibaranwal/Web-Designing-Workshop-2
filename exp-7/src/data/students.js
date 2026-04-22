@@ -1,21 +1,21 @@
 const students = [
   {
     id: 1,
-    name: "Rahul Sharma",
+    name: "Amitabh Bachhan",
     course: "Computer Science",
-    marks: 85,
+    marks: 98,
   },
   {
     id: 2,
-    name: "Anita Verma",
+    name: "Shahrukh khan",
     course: "Information Technology",
-    marks: 87,
+    marks: 92,
   },
   {
     id: 3,
-    name: "Rohan Gupta",
+    name: "Sri Devi",
     course: "Electronics",
-    marks: 78,
+    marks: 97,
   },
 ];
 
