@@ -1,48 +1,34 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>React Props Example</title>
-
-<script src="https://unpkg.com/react@18/umd/react.development.js"></script>
-<script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
-<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Example</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
 <body>
+    <h1 class="text-primary text-center">Hello Bootstrap</h1>
 
-<div id="root"></div>
+    <div class="container bg-dark text-white p-3">
+        half Width Container
+    </div>
+    <div class="container-fluid bg-warning p-3">
+        Full Width Container
+    </div> 
+    <div class="container">
+        <div class="row">
+            <div class="col bg-primary text-white p-3">coulmn 1</div>
+            <div class="col bg-success text-white p-3">coulmn 2</div>
+            <div class="col bg-danger text-white p-3">coulmn 3</div>
+        </div>
+    </div>   
+    <div class="row">
+    <div class="col bg-danger text-white p-3">coulmn 3</div>
+    <div class="col bg-success text-white p-3">coulmn 3</div>
+    </div>
 
-<script type="text/babel">
 
-function Welcome(props){
-   return <h2>Hello {props.name}</h2>;
-}
-
-function App(){
-   return(
-      <div>
-        <Welcome name="Rahul" />
-        <Welcome name="Anita" />
-        <Welcome name="Rohan" />
-      </div>
-   );
-}
-function StudentList(){
-    const students=["rahul","amit","neha"]
-    return(
-        <ul>
-            {students.map(s,index)=>(
-                <li key={index}>(s)</li>
-            ) }  
-        </ul>
-    )
-}
-
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<App />);
-
-</script>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
